@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head>
+     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <title>Hibret Hotel | Booking</title> <link rel="stylesheet" href="style.css">
+     </head> <body> <header> 
+      <nav>
+         <a href="index.html" class="logo">Hibret Hotel</a>
+       <ul class="nav-links">
+         <li>
+          <a href="index.html">Home</a>
+        </li> 
+        <li><a href="about.html">About</a></li>
+         <li><a href="room.html">Rooms</a></li> 
+         <li><a href="service.html">Services</a></li> 
+         <li><a href="gallery.html">Gallery</a></li> 
+         <li><a href="contact.html">Contact</a></li>
+         </ul> <a href="booking.html" class="book-nav-btn">Book Now</a>
+         </nav> </header> <div class="page-banner"> 
+          <h1>Reserve Your Room</h1>
+          
+          <p>Book directly with us for guaranteed best rates</p> 
+        </div> <main class="container"> <div class="form-card">
+           <form onsubmit="event.preventDefault(); alert('Booking request submitted successfully!');" name="booking" method="POST" data-netlify="true" action="success.html"> 
+            <div class="form-group"> 
+              <label for="fullname">Full Name</label>
+               <input type="text" id="fullname" required> 
+              </div>
+               <div class="form-group"> 
+                <label for="email">Email Address</label> 
+                <input type="email" id="email" required>
+               </div> <div class="form-group"> 
+                <label for="phone">Phone Number</label> 
+                <input type="tel" id="phone" required> 
+              </div> <div class="form-group"> 
+                <label for="checkin">Check-in Date</label> 
+                <input type="date" id="checkin" required>
+               </div> <div class="form-group"> 
+                <label for="checkout">Check-out Date</label>
+                 <input type="date" id="checkout" required>
+                 </div> <div class="form-group"> 
+                  <label for="roomtype">Room Category</label> 
+                  <select id="roomtype">
+                     <option value="deluxe">Deluxe King Room</option> 
+                     <option value="twin">Standard Twin Room</option> 
+                     <option value="suite">Executive Suite</option> 
+                    </select>
+                   </div>
+                   
+                   <button type="submit" class="btn-primary" style="width: 100%;">Submit Booking Request</button> 
+                  </form> 
+                </div> 
+              </main>
+               <footer>
+                     <div class="footer-bottom">&copy; 2026 Hibret Hotel. All rights reserved.</div>
+                     </footer>
+                     </body> 
+           </html>

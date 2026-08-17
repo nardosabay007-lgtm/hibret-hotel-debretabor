@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hibret Hotel | About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 3rem;
+      align-items: center;
+      margin-bottom: 4rem;
+    }
+
+    .about-text h2 {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-text p {
+      margin-bottom: 1.2rem;
+      color: #444;
+      font-size: 1.05rem;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .highlight-card {
+      background: #ffffff;
+      padding: 1.8rem;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .highlight-card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Hibret Hotel</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="room.html">Rooms</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="booking.html" class="book-nav-btn">Book Now</a>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <div class="page-banner">
+    <h1>About Hibret Hotel</h1>
+    <p>Discover our story, values, and commitment to Ethiopian hospitality in Debre Tabor</p>
+  </div>
+
+  <!-- MAIN ABOUT SECTION -->
+  <main class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Welcome to Debre Tabor's Finest Stay</h2>
+        <p>Situated in the historic heart of Debre Tabor, Hibret Hotel offers a refined blend of modern comfort and authentic Amhara warmth. Whether you are traveling for business, visiting regional attractions, or seeking a comfortable getaway, our doors are open to provide an unforgettably welcoming experience.</p>
+        <p>Our hotel features well-appointed accommodations, local and international dining options, versatile event spaces, and dedicated service staff available around the clock to meet every need.</p>
+      </div>
+      <div class="about-image">
+  <img src="hibret-hotel.jpg." alt="Hibret Hotel Exterior & Interior">
+</div>
+    </div>
+
+    <!-- CORE HIGHLIGHTS -->
+    <div class="section-title">
+      <h2>Our Core Values</h2>
+    </div>
+
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <h3>Genuine Hospitality</h3>
+        <p>We treat every visitor like family, ensuring your stay feels comfortable and seamless from check-in to farewell.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Prime Location</h3>
+        <p>Located centrally in Debre Tabor for easy accessibility to local business hubs, transportation, and regional landmarks.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Quality Accommodations</h3>
+        <p>Clean, comfortable, and beautifully maintained rooms equipped with modern essentials for work and rest.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Cultural Connection</h3>
+        <p>Celebrate Ethiopian culture through our authentic traditional dining options, fresh coffee ceremonies, and local expertise.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-bottom">&copy; 2026 Hibret Hotel. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>

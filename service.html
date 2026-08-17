@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hibret Hotel | Services</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .service-card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    .service-card h3 { color: var(--primary); margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Hibret Hotel</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="room.html">Rooms</a></li>
+        <li><a href="service.html" class="active">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="booking.html" class="book-nav-btn">Book Now</a>
+    </nav>
+  </header>
+
+  <div class="page-banner">
+    <h1>Our Hospitality Services</h1>
+    <p>Everything you need for a seamless and memorable stay</p>
+  </div>
+
+  <main class="container">
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Restaurant & Dining</h3>
+        <p>Serving authentic Ethiopian traditional dishes and modern international cuisine.</p>
+      </div>
+      <div class="service-card">
+        <h3>Conference Hall</h3>
+        <p>Fully equipped meeting facilities for corporate events, workshops, and celebrations.</p>
+      </div>
+      <div class="service-card">
+        <h3>24/7 Front Desk</h3>
+        <p>Around-the-clock reception, concierge, and room service support.</p>
+      </div>
+      <div class="service-card">
+        <h3>Free High-Speed Wi-Fi</h3>
+        <p>Stay connected throughout the entire hotel property with complimentary internet.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-bottom">&copy; 2026 Hibret Hotel. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
